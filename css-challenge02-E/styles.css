@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 18px;
+    color: #fff;
+    font-family:'Hanken Grotesk';
+}
+body{
+    background-color:hsl(224, 30%, 27%);
+}
+button{
+    border: none;
+}
+.user-card{
+    margin: 20px auto;
+    width: 30%;
+    min-width: 240px;
+    max-width: 440px;
+    background-color: #fff;
+}
+.result-box{
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,
+    hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}   
+.summary-box{
+    width: 100%;
+    height: 60%;
+}
+
+/*result-box*/
+.result-top{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(193, 195, 206)
+}
+.result-total{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:auto;
+    background-image: linear-gradient(to bottom,
+    hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.total-score{
+    font-size: 3.1rem;
+    font-weight: 800;
+    height: 90px;
+    line-height:90px;
+}
+.total-percent{
+    font-size: 0.85rem;
+    color: rgb(157, 160, 172);
+    font-weight: bold;
+}
+.result-level{
+    font-size: 1.4rem;
+}
+.result-descript p{
+    color: rgb(193, 195, 206);
+    margin: 0% 5% 5% 5%;
+}
+.r-box{
+    padding: 4% 4%;
+}
+
+/*summary-box*/
+.sum-top{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 2%;
+    line-height: 2%;
+}
+.sum-reaction{
+    background-color: hsl(0, 44%, 96%);
+    border-radius: 10px;
+    color: hsl(0, 100%, 67%);
+}
+.sum-memory{
+    background-color: hsl(45, 62%, 95%);
+    border-radius: 10px;
+    color: hsl(39, 100%, 56%)
+}
+.sum-verbal{
+    background-color: hsl(165, 44%, 93%);
+    border-radius: 10px;
+    color: hsl(166, 100%, 37%);
+}
+.sum-visual{
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 10px;
+    color: hsl(234, 85%, 45%);
+}
+.sum-btn{
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    height: 55px;
+    border-radius: 30px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.s-box{
+    padding: 15px 15px;
+    margin: 20px 30px;
+}
+.points{
+    color: black;
+    margin-left: 110px;
+    font-weight: bold;
+}
+.icons{   
+    vertical-align:sub;
+}
+.percent2{
+    color: grey;
+}

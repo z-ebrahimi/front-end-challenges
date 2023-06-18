@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge03-E</title>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr align="center">
+        <td height="180" colspan="3">
+          <img width="170" src="/images/logo.svg">
+          <br />
+          <h1>فروشگاه اینترنتی دیجی کالا</h1>
+        </td>
+      </tr>
+      <tr>
+        <!--محصولات-->
+        <td width="50%">
+          <table border="1" width="100%">
+            <thead align="center">
+              <tr height="70">
+                <th colspan="3">
+                  <h3>جدیدترین محصولات</h3>
+                </th>
+              </tr>
+              <tr>
+                <th width="20%">عکس</th>
+                <th width="60%">عنوان</th>
+                <th width="20%">قیمت</th>
+              </tr>
+            </thead>
+            <tbody align="center">
+              <tr>
+                <td>
+                  <img width="80" src="/images/clock.jpg" alt="">
+                </td>
+                <td>ساعت هوشمند</td>
+                <td>3.299.000 تومان</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="80" src="/images/laptop.jpg" alt="">
+                </td>
+                <td>لپتاپ ایسوس</td>
+                <td>35.700.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="80" src="/images/iphone.jpg" alt="">
+                </td>
+                <td>گوشی موبایل iphone 11</td>
+                <td>26.500.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="80" src="/images/camera.jpg" alt="">
+                </td>
+                <td>دوربین حرفه ای</td>
+                <td>30.450.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="80" src="/images/console.jpg" alt="">
+                </td>
+                <td>کنسول بازی PS5</td>
+                <td>22.299.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <img width="80" src="/images/printer.jpg" alt="">
+                </td>
+                <td>پرینتر حرفه ای Cannon</td>
+                <td>6.350.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <!--اخبار وب-->
+        <td width="30%" valign="top" >
+          <table border="1" width="100%">
+            <thead height="70" align="center">
+              <tr>
+                <th>
+                  <h3>اخبار دنیای وب</h3>
+                </th>
+              </tr>
+            </thead>
+            <tbody align="right">
+              <tr>
+                <td>
+                  <ol>
+                    <li>
+                      <a href="#">10 انیمیشن برتر دیزنی و پیکسار که پایان بی نقص دارند.</a>
+                    </li>
+                    <li>
+                      <a href="#">ربات تریدر چیست؟</a>
+                    </li>
+                    <li>
+                      <a href="#">API چیست؟</a>
+                    </li>
+                    <li>
+                      <a href="#">اسکیل (SKALE) چگونه کار می کند؟</a>
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <!--فرم ثبت نام-->
+        <td width="20%" rowspan="2" valign="top">
+          <table width="100%" align="center">
+            <thead>
+              <tr>
+                <th>
+                  <h3>فرم ثبت نام</h3>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <form action="">
+                    <table cellspacing="5" width="100%">
+                      <tr>
+                        <td width="50%" align="left">
+                         <b>*</b>
+                         <label for="user_firstname">نام :</label>
+                        </td>
+                        <td align="right">
+                          <input id="user_firstname" type="text" name="user_firstname" placeholder="به زبان فارسی" required>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <b>*</b>
+                          <label for="user_lastname">نام خانوادگی:</label>
+                        </td>
+                        <td align="right">
+                          <input id="user_lastname" type="text" name="user_lastname" placeholder="به زبان فارسی" required>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <b>*</b>
+                          <label for="user_password">کلمه عبور :</label>
+                        </td>
+                        <td align="right">
+                          <input id="user_password" type="password" name="user_password" placeholder="حداقل 6 کاراکتر" minlength="6" maxlength="12" required>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          جنسیت :
+                        </td>
+                        <td align="right">
+                          <input id="user_male" type="radio" name="user_gender" />
+                          <label for="user_male">مرد</label>
+                          <input id="user_female" type="radio" name="user_gender" />
+                          <label for="user_female">زن</label>
+                          <input id="user_other" type="radio" name="user_gender" />
+                          <label for="user_other">دیگر</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left"><label for="user_age">تاریخ تولد : </label></td>
+                        <td align="right">
+                          <input id="user_age" type="date" name="user_age">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left"><label for="user_fcolor">رنگ مورد علاقه : </label></td>
+                        <td align="right">
+                          <input id="user_fcolor" type="color" name="user_favcolor">
+                        </td>
+                      </tr>  
+                      <tr>
+                        <td align="left">
+                          <b>*</b>
+                          <label for="user_confirm">پذیرش قوانین :</label>
+                        </td>
+                        <td align="right">
+                          <input id="user_confirm" type="checkbox" name="user_confirm" required>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left"><label for="user_score">امتیاز : </label></td>
+                        <td align="right">
+                          1
+                          <input id="user_score" type="range" min="1" max="5" step="1" name="user_score">
+                          5
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left"><label for="user_url">آدرس سایت : </label></td>
+                        <td align="right">
+                          <input id="user_url" type="url" dir="ltr" name="user_url" placeholder="https://...">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <button type="reset">پاکسازی</button>
+                        </td>
+                        <td align="right">
+                          <button type="submit">ثبت نام</button>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" height="40" align="center">
+          تمامی حقوق متعلق به دیجی کالا می باشد.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
