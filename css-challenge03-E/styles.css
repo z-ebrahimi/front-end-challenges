@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    color: grey;
+    background-color: rgb(207, 211, 221);
+}
+.card{
+    width: 25%;
+    height: 550px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-head{
+    height: 40%;
+    margin: 5px 10px;
+}
+.head-box{
+    height: 90%;
+    background-image: url("images/card-head.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+}
+.like-icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.card-body{
+    height: 60%;
+    padding: 0px 5px;
+}
+.tour-town{
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.tour-facility{
+    margin: 20px auto;
+}
+.facility-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+.facility-texts{
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.tour-more-facility{
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.main-price{
+    text-decoration: line-through;
+}
+.tour-price{
+}
+.off-price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+}
+.info-price{
+    vertical-align:sub;
+}

@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: "yekan";
+    src: url("fonts/2\ Yekan.ttf") format("truetype");
+}
+:root{
+    --primary: rgb(191,154,102);
+    --secondary: rgb(158,127,83);
+    --tertiary: rgb(221,201,174);
+    --icon1: url("/images/icon1.png");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "yekan";
+    font-size: 36px;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    background-color: var(--primary);
+    border-radius: 50px;
+    display: flex;
+    margin: 20px auto;
+    position: relative;
+}
+.col{
+    width: 50%;
+}
+.col-1{
+    border-left:3px solid #fff;
+    background-image: var(--icon1);
+    background-position: right;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+.content-1{
+    direction: rtl;
+    text-align: center;
+    margin: 50px auto;
+    transform: rotate(-180deg);
+}
+.col-2{
+    background-image: var(--icon1);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.content-2{
+    direction: rtl;
+    text-align: center;
+    margin: 110px auto;
+    padding-left: 50px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    background-image: url(/images/phone.png);
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-1{}
+.text-2{
+    width: 300px;
+    height:45px;
+    line-height: 45px;
+    background-color: var(--secondary);
+    display: inline-block;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.text-3{}
+.text-4{
+    font-weight: bold;
+}
+.text-5{
+    font-size: 0.99rem;
+    color: var(--tertiary);
+    padding-right: 50px;
+}
