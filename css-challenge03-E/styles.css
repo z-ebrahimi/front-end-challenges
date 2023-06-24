@@ -46,21 +46,21 @@ body{
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.tour-facility{
+.tour-opts{
     margin: 20px auto;
 }
-.facility-icons{
+.opts-icons{
     display: flex;
     justify-content: space-around;
     padding-right: 10px;
 }
-.facility-texts{
+.opts-texts{
     font-size: 0.75rem;
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
 }
-.tour-more-facility{
+.tour-more-opts{
     line-height: 30px;
     margin-bottom: 20px;
     margin-left: 15px;
