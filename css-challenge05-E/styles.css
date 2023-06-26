@@ -1,0 +1,95 @@
+:root{
+    --primary: rgb(221, 221, 221);
+    --secondary: rgb(128 ,128 ,128);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primary);
+    font-size: 16px;
+    font-family:Arial;
+    text-align: center;
+}
+.card{
+    background-color: #FFF;
+    width: 50%;
+    height: 665px;
+    margin: 20px auto;
+    padding: 5px 0px;
+}
+/*common:start*/
+.section-title{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.section-bar{
+    margin:5px;
+    background-color: var(--primary);
+}
+/*common:end*/
+.navigation{
+    height: 40px;
+    line-height: 40px;
+}
+.header{
+    height: 120px;
+    line-height: 120px;
+}
+/*section1:start*/
+.section1{
+    height: 145px;
+    padding: 10px;
+}
+.section1 .container{
+    display: flex;
+}
+.section1 .container-cards{
+    width: 25%;
+    height: 70px;
+    line-height: 70px;
+    background-color: var(--secondary);
+    margin: 5px;
+    color: #FFF;
+}
+/*section1:end*/
+/*section2:start*/
+.section2{
+    height: 270px;
+    padding: 10px;
+}
+.section2 .container{
+    display: flex;
+}
+.section2 .container-cards{
+    width: 50%;
+    margin: 5px;
+    color: #FFF;
+    font-size: 0.75rem;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+}
+.inner-container-cards{
+    height: 60px;
+    line-height: 60px;
+    background-color: var(--secondary);
+    margin-bottom: 5px;
+}
+.leftCard{
+    height: 190px;
+    line-height: 190px;
+    background-color: var(--secondary);
+}
+/*section2:end*/
+
+.footer{
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
