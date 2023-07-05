@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "byekan";
+    src: url("fonts/byekan/BYekanWeb.eot");
+    src: url("fonts/byekan/BYekanWeb.ttf") format("truetype"),
+        url("fonts/byekan/BYekanWeb.woff") format("woff")
+
+    ;
+}
+:root{
+    --theme-color: rgb(52, 184, 170);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'byekan';
+    font-size: 24px;
+    color: rgb(94, 94, 94);
+    background-color: rgb(9, 27, 25);
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+.top-meno{
+    display: flex;
+    position:relative;
+}
+.top-meno-item{
+    margin: 30px 20px;
+    text-align: center;
+}
+.top-meno-item:hover{
+    cursor: pointer;
+    color: var(--theme-color);
+}
+.contact-box{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    padding: 5px 20px;
+    color: var(--theme-color);
+    border: 2px solid var(--theme-color);
+    border-radius: 30px;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+i{
+    padding-right: 5px;
+}
+/*dropdown:start*/
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    color: rgb(94, 94, 94);
+    width: 250px;
+    text-align: right;
+    border-top: 3px solid var(--theme-color);
+}
+.dropdown-item{
+    font-size: 20px;
+    padding: 10px 20px; 
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content .dropdown-item:hover{
+    background-color: rgb(231, 231, 231);
+    color: var(--theme-color);
+}
+/*dropdown:end*/
+/*sub-dropdown:start*/
+.sub-dropdown{
+    position: relative;
+}
+.sub-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    color: rgb(94, 94, 94);
+    width: 250px;
+    right: 250px;
+    top: 0px;
+    text-align: right;
+    border-top: 3px solid var(--theme-color);
+}
+.sub-dropdown:hover .sub-dropdown-content{
+    display: block;
+}
+.sub-dropdown-content .sub-dropdown-item:hover{
+    background-color: rgb(231, 231, 231);
+    color: var(--theme-color);
+}
+.sub-dropdown-item{
+    padding: 10px 20px; 
+}
+/*sub-dropdown:end*/
+/*deep-dropdown:start*/
+.deep-dropdown{
+    position: relative;
+}
+.deep-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    color: rgb(94, 94, 94);
+    width: 250px;
+    right: 250px;
+    top: 0px;
+    text-align: right;
+    border-top: 3px solid var(--theme-color);
+}
+.deep-dropdown:hover .deep-dropdown-content{
+    display: block;
+}
+.deep-dropdown-content .deep-dropdown-item:hover{
+    background-color: rgb(231, 231, 231);
+    color: var(--theme-color);
+}
+.deep-dropdown-item{
+    padding: 10px 20px; 
+}
+/*deep-dropdown:end*/
