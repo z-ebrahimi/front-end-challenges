@@ -1,0 +1,142 @@
+/*desktop*/
+@media (max-width: 1439px) {}
+
+/*iPad Pro11*/
+@media (max-width: 1139px) { 
+    /*modal*/
+    .modal-content{
+        width: 470px;
+        height: 350px;
+    }
+    /*header*/
+    .user-card{
+        padding:10px;
+        margin: auto 40px;
+    }
+    .user-content{
+        width: 79px;
+        height: 35px;
+        margin: 2px;
+        border-radius: 10px;
+    }
+    .nav{
+        padding-left: 10px;
+    }
+    .nav-content{
+        width:82.15px;
+    }
+    .logo{
+        right:50px;
+    }
+    /*main*/
+    .product-section{
+        padding-top: 30px;
+    }
+    .section-title:before{
+        left: 18%;
+    }
+    .section-title:after{
+        right: 18%;
+    }
+    .product-item{
+        flex: 1 0 45%;
+        margin: 10px;
+    }
+    /*footer*/
+    .top-footer{
+        height: 415px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-column{
+        border: none;
+    }
+    .footer-column:first-child{
+        width: 50%;
+    }
+}
+
+
+/*android large*/
+@media (max-width: 719px) { 
+        /*modal*/
+        .modal-content{
+            width: 420px;
+            height: 330px;
+        }
+        .input-sect{
+            padding-bottom: 20px;
+        }
+    /*header*/
+    .header{
+        height: 217px;
+    }
+    .user-card{
+        margin:0;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .user-content{
+        width: 97px;
+        height: 32px;
+        margin: 2px;
+    }
+    .nav{
+        margin: 0;
+        margin:120px auto;
+    }
+    .nav-content{
+        width: 77px;
+        margin: 2px;
+    }
+    .logo{
+        top:10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /*main*/
+    .product-section{
+        padding-top: 20px;
+    }
+    .section-title:before {
+        left: 70%;
+      }
+      .section-title:after {
+        right: 70%;
+      }
+    .product-container{
+        padding: 20px 80px;
+    }
+    .product-item{
+        flex-basis:70%;
+    }
+    /*footer*/
+    .top-footer{
+        height: 720px;
+        padding: 0;
+    }
+    .footer-column{
+        width: 80%;
+        height: fit-content;
+        border-bottom: 1px solid rgb(161, 174, 183);;
+        margin: 0;
+    }
+    .footer-column:first-child{
+        margin-top: 20px;
+        padding-left: 40px;
+        width: 80%;
+    }
+    .footer-column:last-child{
+        border: none;
+    }
+}
+
+
+
+
+
+
+
+

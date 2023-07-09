@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+}
+@font-face {
+    font-family: "acme";
+    src: url(/fonts/Acme-Regular.ttf) format("truetype");
+}
