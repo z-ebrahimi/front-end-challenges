@@ -1,3 +1,7 @@
-for (x=1; x <= 100; x++) {
-    document.write(`${x}<br />`);
+function loopPrinter() {
+  for (let i = 1; i <= 100; i++) {
+    document.write(`${i}<br />`);
+  }
 }
+
+loopPrinter();
