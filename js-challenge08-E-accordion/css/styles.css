@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e4c88;
+  font-family: tahoma;
+  font-size: 16px;
+}
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 150px auto;
+  position: relative;
+}
+.accordion-item {
+  background-color: #fff;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.accordion-head-item {
+  padding: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+.accordion-head-item:hover{
+    color: #1e4c88;
+    background-color: #e1ebfb;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.accordion-head-item::after {
+  content: "\002B";
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.accordion-head-item.active {
+  color: #1e4c88;
+}
+.accordion-head-item.active::after {
+  content: "\2212";
+}
+.accordion-body-item {
+  font-size: 0.9rem;
+  color: #4F493B;
+  display: none;
+  padding: 15px;
+}
+.accordion-body-item.active {
+  display: block;
+  border-top:2px solid;
+  border-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(144, 144, 145),rgb(255, 255, 255)) 1;
+}
