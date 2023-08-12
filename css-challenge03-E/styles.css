@@ -1,81 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: "hanken";
+  src: url("fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
 }
-body{
-    font-size: 18px;
-    color: grey;
-    background-color: rgb(207, 211, 221);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.card{
-    width: 25%;
-    height: 550px;
-    background-color: white;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 10px;
+body {
+  font-family: "hanken";
+  font-size: 17px;
+  color: grey;
+  background-color: rgb(207, 211, 221);
 }
-.card-head{
-    height: 40%;
-    margin: 5px 10px;
+.card {
+  width: 25%;
+  max-height: max-content;
+  background-color: white;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
 }
-.head-box{
-    height: 90%;
-    background-image: url("images/card-head.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    border: none;
-    border-radius: 20px;
+.card-head {
+  height: 40%;
+  margin: 5px 5px 20px 5px;
+  position: relative;
+  border-radius: 20px;
 }
-.like-icon{
-    position: absolute;
-    top: 15px;
-    right: 15px;
+.head-image {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 20px;
 }
-.card-body{
-    height: 60%;
-    padding: 0px 5px;
+.like-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 10%;
+  height: 15;
 }
-.tour-town{
-    font-size: 1.5rem;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.card-body {
+  height: 60%;
+  padding: 0px 5px;
+  margin-bottom: 10px;
 }
-.tour-opts{
-    margin: 20px auto;
+.tour-town {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
-.opts-icons{
-    display: flex;
-    justify-content: space-around;
-    padding-right: 10px;
+.tour-opts {
+  margin: 20px auto;
 }
-.opts-texts{
-    font-size: 0.75rem;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 10px;
+.opts-icons {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
 }
-.tour-more-opts{
-    line-height: 30px;
-    margin-bottom: 20px;
-    margin-left: 15px;
+.opts-texts {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10px;
 }
-.main-price{
-    text-decoration: line-through;
+.tour-more-opts {
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 25px;
 }
-.tour-price{
+.main-price {
+  text-decoration: line-through black;
 }
-.off-price{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    padding-left: 10px;
+.tour-price {
 }
-.info-price{
-    vertical-align:sub;
+.off-price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: black;
+  padding-left: 10px;
+}
+.info-price {
+  font-size: 0.85rem;
+  vertical-align: sub;
 }
